@@ -46,7 +46,7 @@ class ProductsController extends Controller
             'success' => true,
             // 'data' => new ProductsCollection($product),
             'message' => "Successfully Created"
-        ], 200);
+        ], 201);
     }
 
     /**
